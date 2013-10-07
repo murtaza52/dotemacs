@@ -107,7 +107,7 @@
 ;;         M         M M  M M     .dMMM MM        .M
 ;;         MMMMMMMMMMM MMMM MMMMMMMMMMM MMMMMMMMMMMM
 ;;
-;;           http://github.com/ghoseb/dotemacs
+;;           http://github.com/murtaza52/dotemacs
 ;;
 ;; " (live-welcome-message) "
 
@@ -118,7 +118,7 @@
 ;;;
 
 ;;default live packs
-(setq live-packs '("core" "themes" "power" "clojure" "programming" "notes"))
+(setq live-packs '("core" "themes" "power" "clojure" "programming" "notes" "emacs-custom"))
 
 ;; Load all packs - Power Extreme!
 (live-load-all-packs live-packs)
