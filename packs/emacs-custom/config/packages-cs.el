@@ -8,7 +8,8 @@
 (package-initialize)
 
 (defvar syl:packages
-  '(color-theme-sanityinc-tomorrow
+  '(wget
+    color-theme-sanityinc-tomorrow
                            solarized-theme
                            color-theme-solarized
                            auto-complete
