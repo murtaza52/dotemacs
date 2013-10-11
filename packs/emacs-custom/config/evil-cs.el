@@ -71,9 +71,7 @@
 ;; (key-chord-define-global "bb" 'ace-jump-char-mode)
 ;; (key-chord-define-global "mm" 'ace-jump-line-mode)
 
-
-;; Changing projectile prefix key  as it conflicts with evil mode
-;; ;; (require 'projectile)
-;; (setq projectile-keymap-prefix (kbd "C-n"))
+(require 'surround)
+(global-surround-mode 1)
 
 (provide 'evil-cs)

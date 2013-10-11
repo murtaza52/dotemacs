@@ -169,6 +169,9 @@
 (evil-leader/set-key "pg" 'projectile-grep)
 (evil-leader/set-key "po" 'projectile-multi-occur)
 (evil-leader/set-key "pr" 'projectile-replace)
+(evil-leader/set-key "ps" 'projectile-switch-project)
+(evil-leader/set-key "pa" 'projectile-ack)
+
 ;; perforce -------------------------------------------------------------------
 (evil-leader/set-key "p4a" 'p4-add)
 (evil-leader/set-key "p4d" 'p4-delete)
@@ -180,7 +183,7 @@
 (evil-leader/set-key "qbc" 'quickrun-compile-only)
 (evil-leader/set-key "qbs" 'quickrun-shell)
 (evil-leader/set-key "qbx" 'quickrun)
-(evil-leader/set-key "qeb" 'eval-buffer)
+(evil-leader/set-key "eb" 'eval-buffer)
 (evil-leader/set-key "qex" 'eval-last-sexp)
 (evil-leader/set-key "qh"  'helm-quickrun)
 (evil-leader/set-key "qrr" 'quickrun-replace-region)
@@ -243,3 +246,10 @@
 (evil-leader/set-key "zz" 'global-centered-cursor-mode)
 
 ;;; (provide 'bindings-dotemacs)
+;;; Murtaza's Bindings
+(evil-leader/set-key "dt" 'fold-dwim-toggle)
+(evil-leader/set-key "dh" 'fold-dwim-hide-all)
+(evil-leader/set-key "ds" 'fold-dwim-show-all)
+
+;;Magit bindings
+(evil-leader/set-key "ml" 'magit-log)

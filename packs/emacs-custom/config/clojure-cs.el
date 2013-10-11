@@ -2,11 +2,6 @@
 (require 'clojure-mode)
 (add-hook 'clojure-mode-hook 'hs-minor-mode)
 
-(require 'fold-dwim)
-(global-set-key (kbd "<f7>")      'fold-dwim-toggle)
-(global-set-key (kbd "<M-f7>")    'fold-dwim-hide-all)
-(global-set-key (kbd "<S-M-f7>")  'fold-dwim-show-all)
-
 ;; Provide clojure headlines
 (defun helm-clojure-headlines ()
   "Display headlines for the current Clojure file."
