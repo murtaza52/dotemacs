@@ -206,6 +206,7 @@
 (evil-leader/set-key "ttn" 'load-theme-night)
 ;; selection ------------------------------------------------------------------
 (evil-leader/set-key "v" 'er/expand-region)
+(evil-leader/set-key "c" 'er/contract-region)
 ;; window ---------------------------------------------------------------------
 (evil-leader/set-key "wb" 'evenly-split-window-right)
 (evil-leader/set-key "wc" 'delete-window)
@@ -253,3 +254,7 @@
 
 ;;Magit bindings
 (evil-leader/set-key "ml" 'magit-log)
+
+;;Duplicate
+(evil-leader/set-key "dl" 'duplicate-line)
+(evil-leader/set-key "dr" 'duplicate-region)
