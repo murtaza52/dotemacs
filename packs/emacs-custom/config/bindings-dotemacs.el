@@ -77,6 +77,7 @@
 (evil-leader/set-key "bml" (lambda () (interactive)
                              (buf-move-right) (golden-ratio)))
 (evil-leader/set-key "bn" 'switch-to-next-buffer)
+;; (evil-leader/set-key "bn" ;;C-x b)
 (evil-leader/set-key "bp" 'switch-to-prev-buffer)
 (evil-leader/set-key "br" 'rename-current-buffer-file)
 (evil-leader/set-key "bs" 'helm-mini)
