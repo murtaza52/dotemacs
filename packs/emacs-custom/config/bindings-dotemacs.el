@@ -79,7 +79,7 @@
 (evil-leader/set-key "bn" 'switch-to-next-buffer)
 ;; (evil-leader/set-key "bn" ;;C-x b)
 (evil-leader/set-key "bp" 'switch-to-prev-buffer)
-(evil-leader/set-key "br" 'rename-current-buffer-file)
+(evil-leader/set-key "br" 'rename-file-and-buffer)
 (evil-leader/set-key "bs" 'helm-mini)
 ;; errors ---------------------------------------------------------------------
 (evil-leader/set-key "en" 'next-error)

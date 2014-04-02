@@ -6,9 +6,13 @@
 (evil-leader/set-key "ep" 'nrepl-eval-expression-at-point)
 (evil-leader/set-key "el" 'nrepl-eval-last-expression)
 (evil-leader/set-key "nd" 'nrepl-doc)
+(evil-leader/set-key "nq" 'nrepl-quit)
 
 ;; paredit shortcuts
 (evil-leader/set-key "frs" 'paredit-forward-slurp-sexp)
 (evil-leader/set-key "frb" 'paredit-forward-barf-sexp)
 (evil-leader/set-key "bas" 'paredit-backward-slurp-sexp)
 (evil-leader/set-key "bab" 'paredit-backward-barf-sexp)
+(evil-leader/set-key "w9" 'paredit-wrap-round)
+(evil-leader/set-key "w[" 'paredit-wrap-square)
+(evil-leader/set-key "w]" 'paredit-wrap-curly)

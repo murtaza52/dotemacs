@@ -1,4 +1,5 @@
 (live-add-pack-lib "clojure-mode")
+(live-add-pack-lib "clojure-test-mode")
 
 (eval-after-load 'clojure-mode
   '(font-lock-add-keywords
@@ -20,6 +21,7 @@
   '(add-to-list 'ffip-patterns "*.clj"))
 
 (require 'clojure-mode)
+(require 'clojure-test-mode)
 
 (add-hook 'clojure-mode-hook
           (lambda ()

@@ -13,7 +13,7 @@
 ;;;; Customizing the nrepl
 (require 'nrepl)
 (setq nrepl-hide-special-buffers t)
-(setq nrepl-popup-stacktraces-in-repl t)
+(setq nrepl-popup-stacktraces-in-repl nil)
 (setq nrepl-history-file "~/.emacs.d/nrepl-history")
 (add-to-list 'same-window-buffer-names "*nrepl*")
 (add-hook 'nrepl-mode-hook 'subword-mode)
